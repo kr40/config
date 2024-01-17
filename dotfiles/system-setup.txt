@@ -11,6 +11,7 @@ sudo apt install git curl gh lua5.4 neofetch cmatrix lolcat htop ubuntu-restrict
 --> Install Neovim - via pacstall
 --> Install nvm - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 --> Install LazyGit
+--> Install Delta - via pacstall
 --> Proper Symlink for fd - n -s $(which fdfind) ~/.local/bin/fd
 
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
