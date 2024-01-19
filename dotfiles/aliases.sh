@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Alias's for exa
-alias ls='exa -halF --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'    # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'    # long format
-alias lt='exa -aT --color=always --group-directories-first'   # tree listing
+alias ls='exa -halF --color=always --group-directories-first --icons --time-style=iso --git' # my preferred listing
+alias la='exa -a --color=always --group-directories-first --icons --time-style=iso --git'    # all files and dirs
+alias ll='exa -l --color=always --group-directories-first --icons --time-style=iso --git'    # long format
+alias lt='exa -aT --color=always --group-directories-first --icons --time-style=iso --git'   # tree listing
 alias l.='exa -a | egrep "^\."'
 
 # Alias's for update and upgrade

@@ -50,6 +50,8 @@ config.underline_position = "-3px"
 -- Set underline thickness
 config.underline_thickness = "2px"
 
+config.enable_csi_u_key_encoding = true
+
 -- Set maximum window size on startup
 wezterm.on("gui-startup", function()
 	local tab, pane, window = mux.spawn_window({})
