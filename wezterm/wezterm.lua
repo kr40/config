@@ -50,6 +50,7 @@ config.underline_position = "-3px"
 -- Set underline thickness
 config.underline_thickness = "2px"
 
+-- Enable CSI u key encoding (For TMUX)
 config.enable_csi_u_key_encoding = true
 
 -- Set maximum window size on startup
