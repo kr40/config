@@ -30,6 +30,7 @@ export PATH=$PATH:/home/kr40/Desktop/scripts
 export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standadard 2>/dev/null || fd --type f --type l $FD_OPTIONS"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
 export BAT_THEME=Dracula
 export BAT_PAGER="less -R"
 

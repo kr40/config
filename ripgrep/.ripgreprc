@@ -1,0 +1,12 @@
+--type-add
+web:*.{html,css,js}*
+
+
+#--glob=!.git/*
+#--glob=!node_modules/*
+
+
+--smart-case
+
+--hidden
+--follow
