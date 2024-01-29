@@ -28,7 +28,8 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
 export BAT_THEME=Dracula
-export BAT_PAGER="less -R"
+export BAT_PAGER="less --RAW-CONTROL-CHARS --quit-if-one-screen --chop-long-lines"
+export BAT_TABS="2"
 
 # Alias for fd
 alias fd="fd $FD_OPTIONS"

@@ -25,7 +25,7 @@ config.font_size = 14.0
 config.color_scheme = "tokyonight_moon"
 
 -- Remove window decorations (titlebar)
-config.window_decorations = "RESIZE"
+config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 
 -- Disable dead keys
 config.use_dead_keys = false
@@ -52,6 +52,12 @@ config.underline_thickness = "2px"
 
 -- Enable CSI u key encoding (For TMUX)
 config.enable_csi_u_key_encoding = true
+
+-- Set Max FPS
+config.max_fps = 60
+
+-- Turn off fancy tab bar styling
+config.use_fancy_tab_bar = false
 
 -- Set maximum window size on startup
 wezterm.on("gui-startup", function()
