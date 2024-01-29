@@ -1,3 +1,6 @@
+# vim: filetype=gitignore
+# This file is used by fd and rg (Both have .git and node_module applied in bash_aliases)
+
 .cache
 .dotnet
 .fonts
@@ -17,4 +20,4 @@ evolution/
 google-chrome/
 ibus/
 pulse/
-snap
+snap/
