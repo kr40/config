@@ -2,8 +2,8 @@
 web:*.{html,css,js}*
 
 
-#--glob=!.git/*
-#--glob=!node_modules/*
+--glob=!.git/*
+--glob=!node_modules/*
 
 
 --smart-case
