@@ -21,9 +21,9 @@ alias c='clear'
 alias e='exit'
 
 # Global Variables
-export FD_OPTIONS='--hidden --follow --exclude .git --exclude node_modules'
+export FD_OPTIONS="--hidden --follow --exclude .git --exclude node_modules --ignore-file $HOME/.config/dotfiles/ignore"
 export PATH=$PATH:/home/kr40/Desktop/scripts
-export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standadard 2>/dev/null || fd --type f --type l $FD_OPTIONS"
+export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard 2>/dev/null || fd --type f --type l $FD_OPTIONS"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
