@@ -22,7 +22,7 @@ mv "$HOME/.bashrc" "$HOME/bashrc.bak" >>/dev/null 2>&1
 mv "$HOME/.bash_aliases" "$HOME/bash_aliases.bak" >>/dev/null 2>&1
 mv "$HOME/.gitconfig" "$HOME/gitconfig.bak" >>/dev/null 2>&1
 
-echo "Symlinking alises.sh, bashrc.sh and gitconfig to .bashrc, .bash_aliases and .gitconfig
+echo "Symlinking alises.sh, bashrc.sh and gitconfig to .bashrc, .bash_aliases and .gitconfig"
 
 # Create links for the shell configuration.
 ln -sf "$PWD/aliases.sh" "$HOME/.bash_aliases"
