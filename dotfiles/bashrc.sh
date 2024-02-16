@@ -147,3 +147,5 @@ fi
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 #
+
+[[ -s "/home/kr40/.gvm/scripts/gvm" ]] && source "/home/kr40/.gvm/scripts/gvm"
