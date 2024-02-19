@@ -5,6 +5,7 @@
 .dotnet
 .fonts
 .gnupg
+.gvm/
 .local
 .npm
 .nvm
@@ -17,8 +18,8 @@ Code/
 dconf/
 enchant/
 evolution/
+go/
 google-chrome/
 ibus/
 pulse/
 snap/
-go/
