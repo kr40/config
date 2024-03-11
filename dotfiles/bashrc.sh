@@ -149,3 +149,4 @@ fi
 #
 
 [[ -s "/home/kr40/.gvm/scripts/gvm" ]] && source "/home/kr40/.gvm/scripts/gvm"
+. "$HOME/.cargo/env"

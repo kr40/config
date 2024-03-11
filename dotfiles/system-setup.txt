@@ -13,6 +13,7 @@ sudo apt install git curl gh lua5.4 neofetch cmatrix lolcat htop ubuntu-restrict
 --> Install LazyGit
 --> Install Delta - via pacstall
 --> Install gvm - bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+--> Install Rust - curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 --> Proper Symlink for fd - n -s $(which fdfind) ~/.local/bin/fd
 
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')

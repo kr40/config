@@ -2,6 +2,7 @@
 # This file is used by fd and rg (Both have .git and node_module applied in bash_aliases)
 
 .cache
+.cargo/
 .dotnet
 .fonts
 .gnupg
@@ -12,6 +13,7 @@
 .oh-my-bash
 .pki
 .quokka
+.rustup/
 .vscode
 .wallaby
 Code/
